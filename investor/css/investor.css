@@ -1,0 +1,164 @@
+#nav ul li:nth-child(6) a {
+	border-bottom: 3px solid #ff2a00 !important;
+}
+
+#nav_min_left ul li:nth-child(6) a {
+	color: #fff !important;
+	border-bottom: 1px solid #fff !important;
+}
+.tuozi_container{
+	padding: 0 0 3% !important;
+	background: #fff !important;
+}
+/* 投资者关系左边 */
+.touzi_buttom_left .left_nav{
+	background-color: #F3F2F2 !important;
+}
+.touzi_buttom_left ul{
+	display: block;
+	margin: 8% 0!important;
+}
+.touzi_buttom_left ul li{
+	padding: 0 !important;
+}
+.touzi_buttom_left ul li>h3{
+	padding: 13px 20px 13px 0 !important;
+	text-align: right !important;
+	background: #fff !important;
+	color: #333 !important;
+	transition-duration: .5s;
+}
+.touzi_buttom_left ul li.cur>h3{
+	background: #FF2A00 !important;
+	color: #fff !important;
+}
+.touzi_buttom_left ul li:hover h3{
+	background: #FF2A00 !important;
+	color: #fff !important;
+}
+/* 投资者关系右边 */
+.touzi_buttom_right{
+	  box-sizing: border-box;
+	  background: #f3f2f2;
+	  padding: 2%;
+}
+.touzi_buttom_right li{
+	display: flex;
+	justify-content: space-between;
+	padding: 3%;
+	width:100% !important ;
+	background: #fff;
+	box-sizing: border-box;
+	border-radius: 0 !important;
+	margin: 0 0 2% 0;
+}
+.touzi_buttom_right li a:first-child{
+	width: 65%;
+	margin-right: 1%;
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: normal;
+	letter-spacing: 0.6px;
+	color: #333333;
+	background: url(../images/touzi_icon.png) no-repeat left top;
+	padding-left: 30px;
+	box-sizing: border-box;
+	transition-duration: .5s;
+}
+.touzi_buttom_right li a:first-child h3{
+	font-size: 18px;
+	font-weight: normal;
+}
+.touzi_buttom_right li h4{
+	width: 17%;
+	font-weight: normal;
+	letter-spacing: 0.6px;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: #333;
+}
+.touzi_buttom_right li a:last-child{
+	  width: 17%;
+	  font-weight: normal;
+	  letter-spacing: 0.6px;
+	  font-size: 18px;
+	  line-height: 1.5em;
+	  color: #FF2A00;
+	  text-align: right;
+}
+.touzi_buttom_right li a:first-child:hover h3{
+	color: #FF2A00;
+}
+.touzi_buttom_right li a:last-child:hover p{
+	color: #46cac8;
+}
+.tuoz_buttom{
+	padding: 0 !important;
+}
+/* @media  screen and (max-width:1700px) {
+	.touzi_buttom_left ul{
+		display: block ;
+	}
+} */
+@media  screen and (max-width:1350px) {
+	.touzi_buttom_left ul{
+		display: block ;
+	}
+	.touzi_buttom_right li a:first-child,
+	.touzi_buttom_right li a:first-child h3,
+	.touzi_buttom_right li h4,
+	.touzi_buttom_right li a:last-child{
+		font-size: 17px;
+	}
+}
+@media  screen and (max-width:1100px) {
+	.touzi_buttom_right li a:first-child{
+		width: 80%;
+	}
+	.touzi_buttom_right li h4{
+		display: none;
+	}
+	.touzi_buttom_right li a:last-child{
+		width: 19%;
+	}
+}
+@media  screen and (max-width:900px) {
+	.touzi_buttom_left ul{
+		display: none;
+		margin: 0 !important;
+	}
+	.touzi_buttom_left ul li h3{
+		text-align: center !important;
+	}
+}
+@media  screen and (max-width:700px) {
+	.touzi_buttom_right li a:first-child{
+		width: 100% !important;
+		background: none;
+		padding-left: 0;
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 10px;
+	}
+	.touzi_buttom_right li h4,.touzi_buttom_right li a p{
+		width: 100% !important;
+		margin-top: 8px;
+		font-size: 15px;
+		text-align: left;
+	}
+	.touzi_buttom_right li a:last-child{
+		width: 100% !important;
+	}
+	.touzi_buttom_right li,.touzi_buttom_right li h4{
+		display: block;
+	}
+}
+@media  screen and (max-width:560px) {
+	.touzi_buttom_right li a:first-child,
+	.touzi_buttom_right li a:first-child h3{
+		font-size:3.8vw;
+	}
+	.touzi_buttom_right li h4,.touzi_buttom_right li a p{
+		font-size: 3.6vw;
+		
+	}
+}

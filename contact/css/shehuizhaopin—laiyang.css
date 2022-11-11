@@ -1,0 +1,215 @@
+#nav ul li:nth-child(7) a {
+	border-bottom: 3px solid #ff2a00 !important;
+}
+
+#nav_min_left ul li:nth-child(7) a {
+	color: #fff !important;
+	border-bottom: 1px solid #fff !important;
+}/* 招聘导航 */
+.com{background: #F3F2F2;}
+.company_nav_container{
+	height: auto !important;
+	 margin: 0 auto !important;
+	padding: 1.5% 0 2.5% 0;
+}
+.company_nav_content{
+	margin: 0 auto !important;
+}
+.company_nav_left p{
+	display: flex;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+.company_nav_left p img{
+	display: block;
+	margin: 2px 13px 0 0;
+}
+.company_nav_left p a{
+	font-size: 15px;
+	color: #525252;
+	margin-right: 7px;
+}
+.company-nav-right{
+	display: none;
+}
+/* 社会招聘左边 */
+.shehui{
+	background: #F3F2F2;
+}
+.news_list_content{
+	display: flex;
+	justify-content: space-between;
+	width: 1680px;
+	margin: 0% auto 0;
+	padding: 2% 0 4%;
+}
+.inside_news_xiang{
+	  width: 69%;
+	  background: #fff;
+	  box-sizing: border-box;
+	  padding: 2.5% 4%;
+}
+.inside_recruit_detail {
+  background: none;
+  padding: 0;
+}
+.top_title {
+  width: 100%;
+  height: 90px;
+  background: #ff2a00;
+  padding: 0 3%;
+  box-sizing: border-box;
+}
+.top_title h4 {
+    font-size: 22px;
+    line-height: 90px;
+    background: url(../images/zhaopin_icon1.png) no-repeat left center;
+    padding-left: 35px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: 0.6px;
+}
+.renzi_xiangqing_word {
+  background: #fff;
+  padding: 1.5% 3%;
+  box-sizing: border-box;
+}
+.renzi_xiangqing_word p {
+  font-size: 18px;
+  line-height: 1.6em;
+  margin: 1% 0;
+  color: #333;
+  letter-spacing: 0.6px;
+}
+.renzi_xiangqing_word p span {
+  margin-left: 45px;
+}
+.top_title2 {
+  background: none;
+}
+.top_title3 h4 {
+  color: #333;
+  background: url(../images/zhaopin_icon2.png) no-repeat left center;
+}
+.renzi_xiangqing_word2 p {
+  font-size: 16px;
+  color: #4b4b4b;
+}
+.top_title4 h4 {
+  color: #333;
+  background: url(../images/zhaopin_icon3.png) no-repeat left center;
+}
+.top_title5 h4 {
+  color: #333;
+  background: url(../images/zhaopin_icon4.png) no-repeat left center;
+}
+.fenye_recruit {
+  margin-top: 4%;
+  padding: 0 3%;
+  box-sizing: border-box;
+}
+.fenye2 h6 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5em;
+  margin-top: 10px;
+  color: #ff2a00;
+}
+.fenye2 a {
+	display: inline-block;
+  color: #505050;
+}
+/* 社会招聘右边 */
+.left_nav_container{
+	width: 28%;
+}
+.guanlian_container {
+    background: #fff;
+    padding: 25px 0 15px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.guanlian_container h3 {
+  font-size: 32px;
+  line-height: 40px;
+  color: #393939;
+  margin: 0 6.5% 5.5%;
+  font-weight: normal;
+}
+.guanlian_container h6 img {
+    width: 100%;
+    height: auto;
+}
+.guanlian_container ul {
+  width: 87%;
+  margin: 0 6.5% 0;
+}
+.guanlian_container ul li:first-child {
+  border-top: none;
+}
+.guanlian_container ul li {
+  font-size: 16px;
+  line-height: 1.5em;
+  border-top: 1px dotted #9a9a9a;
+  padding: 4.5% 0;
+  letter-spacing: 0.6px;
+}
+.guanlian_container ul li a {
+  color: #333;
+}
+ @media screen and (max-width: 1700px){
+	  .news_list_content {
+  width: 96%;
+}
+  }
+  @media screen and (max-width: 1450px){
+	  .top_title h4 {
+  font-size: 20px;
+}
+.guanlian_container h3 {
+  font-size: 30px;
+}
+  }
+@media screen and (max-width: 900px){
+	.company-nav-right{
+		display:flex;
+		margin-top: 6.5%;
+	}
+	.company-nav-right li{
+		width: 49%;
+		border-radius: 10px;
+	}
+	.company-nav-right li a{
+		border-radius: 10px;
+	}
+ .left_nav_container{
+	 display: none;
+ }
+ .inside_news_xiang{
+	 width: 100%;
+ }
+ .top_title {
+   height: 60px;
+ }
+ .top_title h4 {
+   line-height: 60px;
+ }
+}
+@media screen and (max-width: 560px){
+	.company_nav_container {
+	  padding: 4% 0 ;
+	}
+ .renzi_xiangqing_word p {
+   font-size: 3.8vw;
+ }
+ .renzi_xiangqing_word2 p {
+   font-size: 3.6vw;
+ }
+ .fenye_recruit {
+  padding: 0;
+}
+.fenye2 h6 {
+  font-size: 3.4vw;
+}
+}

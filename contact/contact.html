@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+		<!-- <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+		<meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" /> -->
+		<title>百度地图API自定义地图</title>
+		<!-- animatecss -->
+		<link rel="stylesheet" type="text/css" href="../configuration/css/animate.css" />
+		<!-- 通配css -->
+		<link rel="stylesheet" type="text/css" href="../configuration/css/base.css" />
+		<!-- 头部 css-->
+		<link rel="stylesheet" type="text/css" href="../configuration/css/header.css" />
+		<!-- 底部 css-->
+		<link rel="stylesheet" type="text/css" href="../configuration/css/footer.css" />
+		<!-- 联系我们css -->
+		<link rel="stylesheet" type="text/css" href="css/contact.css" />
+		<!-- 投资者关系css -->
+		<link rel="stylesheet" type="text/css" href="css/product.css" />
+		<!-- jquery.js -->
+		<script src="../configuration/js/jquery.js"></script>
+		<!-- wowjs -->
+		<script src="../configuration/js/wow.min.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.4&services=true"></script>
+	</head>
+	<body>
+		<div id="head"></div>
+		<main>
+			<div class="img">
+				<img src="images/9cb5f5d8859cf77b.jpg">
+				<img src="images/8869ae48d29b7c77.jpg">
+			</div>
+			<!-- 企业简介导航 -->
+			<div class="company_nav_container">
+				<div class="company_nav_content">
+					<div class="company-nav-left">
+						<p>
+							<img src="images/inside_nav_icon.png">
+							<a href="../index.html">首页</a>>&nbsp;
+							<a href="contact.html">联系我们</a>>
+							&nbsp;<a href="contact.html">联系我们</a>
+						</p>
+					</div>
+					<ul class="company-nav-right">
+						<li>
+							<a href="contact.html" class="cur">
+								联系我们
+							</a>
+						</li>
+						<li><a href="zhaopinzhongxin—suoyin.html">招聘中心</a> </li>
+					</ul>
+				</div>
+			</div>
+			<!-- 联系我们 -->
+			<div class="lianxi_container" id="lianxi">
+				<div class="lianxi_content">
+					<div class="lianxi_top base wow slideInUp" data-wow-delay="0.6s">
+						<span></span>
+						<h6>CONTACT US</h6>
+						<h3>联系我们</h3>
+					</div>
+					<div class="lianxi_map_content wow slideInUp" data-wow-delay="0.6s">
+						<div class="lianxi_map_left">
+							<div id="map"></div>
+						</div>
+						<div class="lianxi_map_right map3">
+							<ul>
+								<li>
+									<h4>公司名称</h4>
+									<p>山东龙大美食股份有限公司（烟台）</p>
+								</li>
+								<li>
+									<h4>电话</h4>
+									<p>400-658-2266</p>
+								</li>
+								<li>
+									<h4>邮箱</h4>
+									<p>ldms@longdameishi.com</p>
+								</li>
+								<li>
+									<h4>地址</h4>
+									<p>山东省莱阳市泰山路17号</p>
+								</li>
+							</ul>
+						</div>
+						<div class="contact_erweima wow slideInUp" data-wow-delay="0.6s">
+							<img src="images/79c1bbb974ce8c6f.jpg">
+							<p>扫码关注公众号</p>
+						</div>
+					</div>
+					<div class="lianxi_map_content map_main wow slideInUp" data-wow-delay="0.6s">
+						<div class="lianxi_map_left">
+							<div id="map1" class="map1"></div>
+						</div>
+						<div class="lianxi_map_right map3">
+							<ul>
+								<li>
+									<h4>公司名称</h4>
+									<p>山东龙大美食股份有限公司（青岛）</p>
+								</li>
+								<li>
+									<h4>电话</h4>
+									<p>400-658-2266</p>
+								</li>
+								<li>
+									<h4>邮箱</h4>
+									<p>ldms@longdameishi.com</p>
+								</li>
+								<li>
+									<h4>地址</h4>
+									<p>山东省青岛市崂山区株洲路20号海信创智谷A座2502</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="lianxi_map_content wow slideInUp" data-wow-delay="0.6s">
+						<div class="lianxi_map_left">
+							<div id="map2" class="map2"></div>
+						</div>
+						<div class="lianxi_map_right map3">
+							<ul>
+								<li>
+									<h4>公司名称</h4>
+									<p>山东龙大美食股份有限公司（成都）</p>
+								</li>
+								<li>
+									<h4>电话</h4>
+									<p>400-658-2266</p>
+								</li>
+								<li>
+									<h4>邮箱</h4>
+									<p>ldms@longdameishi.com</p>
+								</li>
+								<li>
+									<h4>地址</h4>
+									<p>四川省成都市双流区蓝润置地广场T1-35F</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 投资者关系底部 -->
+			<div class="investor_container tuoz_buttom" id="investor">
+				<div class="investor_content">
+					<div class="investor_top base wow slideInUp" data-wow-delay="0.6s">
+						<span></span>
+						<h6>Investor contact</h6>
+						<h3><a href="#">投资者关系</a></h3>
+					</div>
+					<div class="investor_buttom wow slideInUp" data-wow-delay="0.6s">
+						<img src="images/324500dbb8928efe.jpg">
+						<div class="investor_buttom_left">
+							<div class="left_content">
+								<img src="images/blogo.png">
+								<p>部门：龙大美食投资部</p>
+								<p>电话：0535-7717760</p>
+								<p>邮箱：ldms@longdameishi.com</p>
+								<p>地址：山东省莱阳市泰山路17号</p>
+							</div>
+						</div>
+						<div class="investor_buttom_right">
+							<div class="right_content">
+								<h3>以预制菜为核心的食品主体，以屠宰和养殖为两翼支撑</h3>
+								<p>致力于成为中华预制菜最佳供应商、中国领先的食品企业</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div id="footer"></div>
+	</body>
+</html>
+<script src="js/map.js"></script>
+<script src="js/map2.js"></script>
+<script src="js/map3.js"></script>
+<script>
+	$(function() {
+		$("#head").load("../configuration/header.html")
+		$("#footer").load("../configuration/footer.html")
+	})
+	wow = new WOW({
+		boxClass: 'wow', // default 盒子类名  
+		animateClass: 'animated', // default 为animate.css触发css动画的库  
+		offset: 0, // default 偏移量  距离可视区域多少开始执行动画
+		mobile: true, // default 是否支持手机  是否在移动设备上执行动画
+		live: true, // default 检查新元素  异步加载的内容是否有效
+	})
+	wow.init();
+</script>

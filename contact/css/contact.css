@@ -1,0 +1,157 @@
+#nav ul li:nth-child(7) a {
+	border-bottom: 3px solid #ff2a00 !important;
+}
+
+#nav_min_left ul li:nth-child(7) a {
+	color: #fff !important;
+	border-bottom: 1px solid #fff !important;
+}
+.lianxi_container{
+	padding: 4% 0;
+	background: #F9F8F8;
+}
+.lianxi_content{
+	width: 1680px;
+	margin:0 auto;
+}
+.lianxi_map_content{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 2.5% 0 0;
+}
+.lianxi_map_left{
+	width: 64%;
+	height: 350px;
+	 /* background: #ccc; */
+}
+#map,#map1,#map2{
+	width: 100%;
+	height:100%;
+	border: 1px solid #ccc;
+}
+.lianxi_map_right{
+	width: 33%;
+}
+.lianxi_map_right ul li{
+	display: flex;
+	width: 100%;
+	border: 1px solid #ff2a00;
+	box-sizing: border-box;
+	overflow: hidden;
+	height: 68px;
+	align-items: center;
+	margin-bottom: 26px;
+}
+.lianxi_map_right ul li h4{
+	width: 28%;
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: normal;
+	color: #333333;
+	text-align: center; 
+	background: #ededed;
+	height: 68px;
+	line-height: 68px;
+}
+.lianxi_map_right ul li p{
+	width:72%;
+	padding:  0 10px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: #333333;
+	box-sizing: border-box;
+}
+.map_main {
+	display: block;
+	overflow: hidden;
+}
+.map_main .lianxi_map_left{
+	float: right;
+}
+.map_main .lianxi_map_right{
+	float: left;
+}
+.map3 ul li{
+	border: 1px solid #46cac8;
+}
+.contact_erweima{
+	  position: absolute;
+	  background: #ff2a00;
+	  text-align: center;
+	  padding: 8px;
+	  left: 5%;
+	  top: 13%;
+}
+.contact_erweima img{
+	display: block;
+	width: 180px;
+	height: auto;
+}
+.contact_erweima p{
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 0.6px;
+	line-height: 1.5em;
+	margin: 8px 0 2px;
+}
+@media screen and (max-width:1700px){
+	.lianxi_content{
+		width: 96%;
+	}
+}
+@media screen and (max-width:1450px){
+	.lianxi_map_right ul li h4,.lianxi_map_right ul li p{
+		font-size: 16px;
+	}
+	.contact_erweima img {
+	  width: 150px;
+	}
+}
+@media screen and (max-width:1350px){
+	.lianxi_map_left{
+		width: 55%;
+	}
+	.lianxi_map_right{
+		width: 42%;
+	}
+}
+@media screen and (max-width:900px){
+	.company-nav-right li{
+		width: 49% !important;
+	}
+	.lianxi_map_content{
+		display: block;
+	}
+	.lianxi_map_left,.lianxi_map_right{
+		width: 100%;
+	}
+	.lianxi_map_left{
+		height: auto;
+	}
+	.lianxi_map_right{
+		margin-top: 2%;
+	}
+	#map, #map1, #map2 {
+	  height: 40vw;
+	}
+	.contact_erweima{
+		display: none;
+	}
+	.map3 ul li:last-child{
+		margin-bottom: 0;
+	}
+}
+@media screen and (max-width:560px){
+	.lianxi_map_right ul li h4, .lianxi_map_right ul li p {
+	  font-size: 3.8vw;
+	}
+	.lianxi_map_right ul li h4 {
+	  width: 24vw;
+	}
+	 .lianxi_map_right ul li p{
+		 width: 76vw;
+	 }
+}

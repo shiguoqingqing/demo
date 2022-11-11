@@ -1,0 +1,174 @@
+<!-- 头部大屏幕内容 -->
+<header class="nav_container">
+	<!-- <div class="nav_content"> -->
+	<a href="../index.html">
+		<img src="../configuration/images/logo.png" class="logo">
+	</a>
+	<div id="nav" class="nav">
+		<ul>
+			<li> <!--  -->
+				<a href="../index.html">
+					首页
+				</a>
+			</li>
+			<li>
+				<a href="../about/company.html">
+					关于我们
+				</a>
+			</li>
+			<li>
+				<a href="../industrial/industrial.html">
+					产业布局
+				</a>
+			</li>
+			<li>
+				<a href="../product/product.html">
+					产品中心
+				</a>
+			</li>
+			<li>
+				<a href="../news/news.html">
+					新闻动态
+				</a>
+			</li>
+			<li>
+				<a href="../investor/investor.html">
+					投资者关系
+				</a>
+			</li>
+			<li>
+				<a href="../contact/contact.html">
+					联系我们
+				</a>
+			</li>
+		</ul>
+		<div class="nav_line"></div>
+		<div class="nav_search">
+			<a href="#" class="nav_search_img" id="nav_search_img"> <img src="../configuration/images/top_s.png" alt="搜索"> </a>
+			<div class="search_form" id="search_form">
+				<p>请输入关键词搜索相关内容</p>
+				<form action="">
+					<input placeholder="请输入关键词" name="word" type="text">
+					<button type="submit" value="search"></button>
+				</form>
+				<a href="#">
+					<img src="../configuration/images/top_cha2.png" alt="关闭搜索框">
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- </div> -->
+</header>
+<!-- 头部小屏幕内容-->
+<header class="nav_min" id="nav_min">
+	<div>
+		<a href="#">
+			<img src="../configuration/images/top_dh.png" class="logo1">
+		</a>
+		<a href="../index.html">
+			<img src="../configuration/images/logo.png">
+		</a>
+		<a href="#">
+			<img src="../configuration/images/m_call.png">
+		</a>
+	</div>
+</header>
+<!-- 小屏幕main内容 -->
+<div class="nav_min_left" id="nav_min_left">
+	<ul>
+		<li>
+			<a href="../index.html" class="border">
+				首页
+			</a>
+		</li>
+		<li>
+			<a href="../about/company.html">
+				关于我们
+			</a>
+		</li>
+		<li>
+			<a href="../industrial/industrial.html">
+				产业布局
+			</a>
+		</li>
+		<li>
+			<a href="../product/product.html">
+				产品中心
+			</a>
+		</li>
+		<li>
+			<a href="../news/news.html">
+				新闻动态
+			</a>
+		</li>
+		<li>
+			<a href="../investor/investor.html">
+				投资者关系
+			</a>
+		</li>
+		<li>
+			<a href="../contact/contact.html">
+				联系我们
+			</a>
+		</li>
+	</ul>
+	<div class="msearch_form">
+		<form action="">
+			<input placeholder="请输入关键词" name="word" type="text">
+			<button type="submit" value="search"></button>
+		</form>
+	</div>
+</div>
+<div class="nav_min_right" id="nav_min_right">
+	<a href="#">
+		<img src="../configuration/images/cha.png">
+	</a>
+</div>
+<!-- 头部nav导航js -->
+<script>
+	$(function() {
+		/* 滚轮滚动到60以下 */
+		$(document).scroll(function() {
+			if ($(this).scrollTop() > 60) {
+				$("#head").addClass("header")
+			} else {
+				$("#head").removeClass("header")
+			}
+		})
+		// 大屏幕点击搜索图片
+		$("#nav_min>div>a img.logo1").click(function() {
+			$("#nav_min_left").css({
+				"left": "0"
+			})
+			$("#nav_min_right").css({
+				"right": "0"
+			})
+		})
+		$("#nav_min_right>a img").click(function() {
+			$("#nav_min_left").css({
+				"left": "-50%"
+			})
+			$("#nav_min_right").css({
+				"right": "-100%"
+			})
+		})
+		// 小屏幕下main内容
+		var width=$(document).width()
+		if (width>=900) {
+			$("#nav_search_img").click(function() {
+				$("#search_form").css({
+					"opacity": "1",
+					"right": " 0%",
+					"transform": "translateX(0%)"
+				})
+			})
+			$("#search_form>a img").click(function() {
+				$("#search_form").css({
+					"opacity": "0",
+					"right": " -70%",
+					"transform": "translateX(70%)"
+				})
+			})
+		}
+	})
+</script>

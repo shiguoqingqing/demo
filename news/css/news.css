@@ -1,0 +1,343 @@
+#nav ul li:nth-child(5) a {
+	border-bottom: 3px solid #ff2a00 !important;
+}
+
+#nav_min_left ul li:nth-child(5) a {
+	color: #fff !important;
+	border-bottom: 1px solid #fff !important;
+}
+/* 产业布局导航 */
+ .company_nav_container {
+	  width: 100%;
+	  background: #fff !important;
+	  overflow: hidden;
+	  height: auto;
+	  margin: 1.5% auto 2.5% auto !important;
+	}
+.company_nav_content{
+	width: 1680px;
+	margin: 0 auto;
+}
+.company_nav_left p{
+	display: flex;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+.company_nav_left p img{
+	display: block;
+	margin: 2px 13px 0 0;
+}
+.company_nav_left p a{
+	font-size: 15px;
+	color: #525252;
+	margin-right: 7px;
+}
+/* 新闻动态 */
+.news_container{
+	margin-top: 4%;
+}
+.news_content{
+	width: 1680px;
+	margin: 0 auto;
+}
+/* 新闻动态头部*/
+.news_top_box{
+	width: 100%;
+	position: relative;
+	margin-bottom: 2.5%;
+}
+/* 新闻动态头部右边*/
+.news_top_right{
+	position: absolute;
+	bottom: 5px;
+	right: 0;
+	display: flex;
+}
+.news_top_right li{
+	cursor: pointer;
+	box-sizing: border-box;
+	width:260px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	margin:0 4% 0 0;
+	border-radius: 10px;
+	background: #dfdfdf;
+	margin-left: 20px;
+	transition-duration: .5s;
+}
+.news_top_right li div{
+	display: table;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.news_top_right li:last-child{
+	margin: 0;
+}
+.news_top_right li a{
+	float: left;
+overflow: hidden;
+	height: 39px;
+	margin: 15px 13px 0 0;
+}
+.news_top_right li a img{
+	display: block;
+	width: 100%;
+	height:100%;
+	transition-duration: .8s;
+}
+.news_top_right li h3{
+	float: left;
+	color: #333;
+	font-size: 22px;
+	font-weight: normal;
+}
+.news_top_right li:hover,.news_top_right li.cur{
+	background: #FF2A00;
+}
+.news_top_right li:hover a img:first-child,.news_top_right li:hover a img.img{
+	margin-top: -39px;
+}
+.news_top_right li:hover h3{
+	color: white;
+}
+/*/* 新闻动态箭头 */
+.news_content_box{
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.news_content_box a{
+	
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top: -28px;
+	cursor: pointer;
+}
+.news_content_box a img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.news_content_box a:last-child{
+	position: absolute;
+	left:auto;
+	right: 0;
+	bottom: 0;
+}
+/* main新闻动态主要内容 */
+.news_buttom_box{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 2.5%;
+}
+.news_buttom_box li{
+	cursor: pointer;
+	width: 32%;
+	margin: 0 2% 2% 0;
+	transition-duration: .5s;
+	background-color: #F0F0F0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.news_buttom_box li:hover{
+	box-shadow: 0 0 20px #9e9d9d;
+}
+.news_buttom_box li.li{
+	margin-right: 0%;
+}
+.news_buttom_box li a{
+	display: block;
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+}
+.news_buttom_box li a img{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	transition: all 2s;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.news_buttom_box li a img:hover{
+	transform: scale(1.2);
+}
+.news_bottom_word{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 3% 4%;
+}
+.news_bottom_word h3{
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: normal;
+	color: #333;
+	transition-duration: .5s;
+	height: 3em;
+	overflow: hidden;
+}
+.news_bottom_word span {
+	display: inline-block;
+	  font-size: 15px;
+	  font-weight: normal;
+	  color: #ff2a00;
+	  letter-spacing: 0.6px;
+	  line-height: 1.5em;
+	  background: url(../images/news_icon.png) no-repeat left center;
+	  padding-left: 30px;
+	  margin-top: 4%;
+}
+/* 分页器*/
+.right_buttom{
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin:2% 0 4.5%;
+	border-top: 1px  solid #FF2A00;
+}
+.right_buttom_box{
+	display: inline-block;
+	text-align: center;
+	/* display:flex; */
+	 margin: 2% 0 0; 
+}
+.right_buttom_box a{
+	cursor: pointer;
+	float: left;
+	font-size: 16px;
+	margin: 0 3px;
+	color: #333;
+	line-height: 1.5em;
+	padding: 2px 2px;
+}
+.right_buttom_box a.cur,.right_buttom_box a:hover{
+	color: #FF2A00;
+	border-bottom: 1px solid #FF2A00;
+}
+@media  screen and (max-width:1700px) {
+	.news_content,.company_nav_container{
+		width: 96%;
+	}
+}
+@media  screen and (max-width:1450px) {
+	.news_top_right li{
+		height: 55px;
+		line-height: 55px;
+	}
+	.news_top_right li a{
+		height: 29px;
+		margin: 12px 13px 0 0;
+	}
+	.news_top_right li h3{
+		font-size: 20px;
+	}
+	.news_bottom_word h3{
+		font-size: 16px;
+	}
+	.news_top_right li:hover a img:first-child {
+	  margin-top: -29px;
+	}
+}
+@media  screen and (max-width:1000px) {
+	.news_content_box a{
+		width: 50px;
+		height: 38px;
+	}
+}
+
+@media  screen and (max-width:900px) {
+	.news_top_right{
+		position: static;
+		margin-top: 2.5%;
+	}
+	.news_top_right li{
+		width: 49%;
+		margin: 0 2% 0% 0;
+	}
+	.news_top_right li:last-child{
+		margin-right: 0;
+	}
+	/* main新闻动态 */
+	.news_buttom_box li,
+	.news_buttom_box li.li{
+		width: 49%;
+		margin: 0 2% 2% 0;
+	}
+	.news_buttom_box li.li1{
+		margin: 0 0% 2% 0;
+	}
+}
+@media  screen and (max-width:560px) {
+	.company_nav_container{
+		margin: 4% auto 5% auto !important;
+	}
+	.news_top_box{margin-bottom: 0;}
+	.news_top_right li {
+	    width: 49%;
+	    margin: 0 2% 0% 0;
+	}
+	.news_top_right li {
+	    height: 45px;
+	    line-height: 45px;
+	}
+	.news_top_right li a{
+		margin: 7px 8px 0 0;
+	}
+	.news_top_right li h3 {
+	  font-size: 18px;
+	}
+	/* 箭头 */
+	.news_content_box{
+		display: block;
+		text-align: center;
+		overflow: hidden;
+		/* display: flex; */
+	/* 	position: static; */
+		  margin-top: 6%;
+		  margin-bottom: 6%;
+		  padding-bottom: 60px;
+	}
+	.news_content_box a{
+		/* position: static; */
+		right: 50%;
+		top: 0;
+		bottom: 50%;
+		margin-left: -58px;
+		left: 50%;
+		margin-top: 2%;
+	}
+	.news_content_box a:last-child{
+		margin-right: -58px;
+		right: 50%;
+		margin-left: 10px;
+	}
+	/* main新闻动态 */
+	.news_buttom_box li,
+	.news_buttom_box li.li{
+		width: 100%;
+		margin: 0  0;
+	}
+	.news_buttom_box li.li1{
+		margin: 0 0;
+	}
+	.news_bottom_word h3 {
+	  font-size: 3.8vw;
+	}
+	.news_bottom_word span{
+		font-size: 3.5vw;
+		background-size: 15px;
+		padding-left: 20px;
+		margin-top: 3%;
+	}
+	/* 分页器 */
+	.right_buttom_box a {
+	  font-size: 3.6vw;
+	}
+	
+}

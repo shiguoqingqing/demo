@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<!-- animatecss -->
+		<link rel="stylesheet" type="text/css" href="../configuration/css/animate.css" />
+		<!-- swripercss -->
+		<link rel="stylesheet" type="text/css" href="../configuration/css/swiper.min.css" />
+		<!-- 通配css -->
+		<link rel="stylesheet" type="text/css" href="../configuration/css/base.css" />
+		<!-- 头部css -->
+		<link rel="stylesheet" type="text/css" href="../configuration/css/header.css" />
+		<!-- 底部 css-->
+		<link rel="stylesheet" type="text/css" href="../configuration/css/footer.css" />
+		<!-- 企业荣誉css -->
+		<link rel="stylesheet" type="text/css" href="css/honor.css" />
+		<!-- jquery.js -->
+		<script src="../configuration/js/jquery.js"></script>
+		<!-- swiper js -->
+		<script src="../configuration/js/swiper.min.js"></script>
+		<!-- wowjs -->
+		<script src="../configuration/js/wow.min.js"></script>
+		<!-- 监测数字滚动 -->
+		<script src="../configuration/js/jquery.waypoints.min.js"></script>
+		<!-- 数字滚动 -->
+		<script src="../configuration/js/jquery.countup.min.js"></script>
+	</head>
+	<body>
+		<div id="head"></div>
+		<main>
+			<div class="img">
+				<img src="images/2.jpg">
+				<img src="images/1.jpg">
+			</div>
+			<!-- 企业荣誉导航 -->
+			<div class="company_nav_container">
+				<div class="company_nav_content">
+					<div class="company-nav-left">
+						<p>
+							<img src="images/inside_nav_icon.png">
+							<a href="../index.html">首页</a>>&nbsp;
+							<a href="company.html">关于我们</a>>&nbsp;
+							<a href="honor.html">企业荣誉</a>
+						</p>
+					</div>
+					<ul class="company-nav-right">
+						<li>
+							<a href="company.html">	企业简介</a>
+						</li>
+						<li><a href="develop.html" >发展历程</a> </li>
+						<li><a href="honor.html"class="cur">企业荣誉</a> </li>
+					</ul>
+				</div>
+			</div>
+			 <!-- 企业荣誉 -->
+			<div class="honor_container">
+				<div class="honor_content">
+					<div class="honor_top base wow slideInUp " data-wow-delay="0.6s">
+						<span></span>
+						<h6>Enterprise Honor</h6>
+						<h3><a href="#">企业荣誉</a></h3>
+					</div>
+					<div class="honor_buttom  wow slideInUp " data-wow-delay="0.6s">
+						<div class="honor_buttom_left">
+							<div class="honor_buttom_box wow slideInUp" data-wow-delay="0.6s">
+							    <h3> 企业荣誉</h3> 
+								<ul>
+									<li>中国民营企业500强</li>
+									<li>中国制造业500强</li>
+									<li>中国肉食品行业最具品牌价值</li>		
+									<li>2021最具投资价值品牌奖</li>
+									<li>中国上市最具成长性公司奖</li>
+									<li>中国国际美食最具影响力品牌</li>
+								</ul>
+							</div>
+							<div class="honor_buttom_box wow slideInUp" data-wow-delay="0.6s">
+							    <h3> 产业会籍</h3> 
+							    <ul>
+									<li>世界肉类组织金牌会员</li>
+									<li>中国肉类协会副会长单位</li> 
+									<li>泛长三角供应链联盟会长单位</li>
+									<li>山东健康肉产业联合会会长单位</li>
+							    </ul>
+							</div>
+							<div class="honor_buttom_box wow slideInUp" data-wow-delay="0.6s">
+							   <h3> 行业认证</h3>
+							   <ul>
+									<li>泰森食品年度优秀供应商（5年）</li>    
+									<li>荷美尔（中国）最佳供应商</li>
+									<li>梅林最佳战略合作伙伴</li>
+							   </ul>
+							</div>
+						</div>
+						<div class="honor_buttom_left honor_buttom_right">
+							<div class="honor_buttom_box wow slideInUp" data-wow-delay="0.6s">
+							   <h3>技术认证</h3>
+							   <ul>
+							       <li>通过CNAS、CMA认证</li>
+							       <li>通过日本JFIC、美国通用磨坊的审核标准</li>
+							       <li>通过食品分析领域全球第一的国际评价体系——FAPAS（弗帕斯）能力验证</li>
+							       <li>拥有国家认可且具有法律效力的国家级第三方检测机构</li> 
+							     </ul>
+							</div>
+							<div class="honor_buttom_box wow slideInUp" data-wow-delay="0.6s">
+							   <h3>学术成果</h3>
+							   <ul>
+							       <li>参与制定6项行业标准</li>
+							       <li>参与修订1项国家标准物质标准</li>
+							       <li>中国食品工业协会科学技术奖一等奖</li>
+							       <li>中国商业联合会科学技术奖</li>
+							       <li>山东省技术市场金桥奖集体奖</li>
+							     </ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div id="footer"></div>
+	</body>
+</html>
+<script>
+	$(function(){
+		$("#head").load("../configuration/header.html")
+		$("#footer").load("../configuration/footer.html")
+	})
+		   wow = new WOW({
+		      boxClass: 'wow', // default 盒子类名  
+		      animateClass: 'animated', // default 为animate.css触发css动画的库  
+		      offset: 0, // default 偏移量  距离可视区域多少开始执行动画
+		      mobile: true, // default 是否支持手机  是否在移动设备上执行动画
+		      live: true ,// default 检查新元素  异步加载的内容是否有效
+		   })  
+		  wow.init(); 
+</script>

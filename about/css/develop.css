@@ -1,0 +1,212 @@
+#nav ul li:nth-child(2) a {
+	border-bottom: 3px solid #ff2a00;
+}
+
+#nav_min_left ul li:nth-child(2) a {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.develop_container{
+	width: 100%;
+	padding: 4% 0 2% 0;
+	background: url(../images/licheng_bg.jpg) no-repeat center center;
+}
+.develop_content,.line_content{
+	width: 1680px;
+	margin:0 auto;
+}
+.develop_top p{
+	color: #333 !important;
+}
+.develop_buttom{
+	position: relative;
+	width:88.03%;
+	overflow: hidden;
+	margin:2.5% auto;
+}
+.develop_buttom_ul{
+	width: 100%;
+}
+.develop_buttom_li{
+	display: flex;
+	overflow: hidden;
+}
+.develop_buttom_left{
+	width: 50%;
+	overflow: hidden;
+}
+.develop_buttom_left a{
+	width: 100%;
+	overflow: hidden;
+}
+.develop_buttom_left a img{
+	display: block;
+	width: 100%;
+	transition: all .6s;
+}
+.develop_buttom_left a:hover img{
+	transform: scale(1.1);
+}
+.develop_buttom_right{
+	width: 46%;
+	margin-left: 4%;
+}
+.develop_buttom_right h3{
+	font-size: 26px;
+	letter-spacing: 0.6px;
+	color: #ff2a00;
+	line-height: 3em;
+	font-weight: normal;
+	margin-top: 13%;
+}
+.develop_buttom_right h3 span{
+	display: inline-block;
+	font-size: 70px;
+	color: #ff2a00;
+	margin-right: 15px;
+	font-weight: bold;
+}
+.develop_buttom_right p{
+	  font-size: 22px;
+	  line-height: 1.6em;
+	  color: #333;
+	  letter-spacing: 0.6px;
+	  margin: 1% 0 0 10px;
+}
+.line_container{
+	width: 100%;
+	position: relative;
+	margin-top: 3%;
+	height: 100px;
+}
+.line{
+	width: 100%;
+	height: 1px;
+	background: #959595;
+	position: absolute;
+	left: 0;
+	top: 17px;
+}
+.line_content ul{
+	display: flex;
+}
+.line_content ul li{
+	text-align: center;
+	width: 12.5%;
+	cursor: pointer;
+} 
+.line_content ul li span{
+	display: inline-block;
+	width: 1px;
+	height: 17px;
+	background: #959595;
+	margin: 0 auto;
+	transition-duration: .5s;
+}
+.line_content ul li.cur span {
+  background: #ff2a00;
+}
+.line_content ul li h2{
+	font-size: 30px;
+	color: #656565;
+	line-height: 1.5em;
+	margin-top: 7%;
+	transition-duration: .5s;
+}
+.line_content ul li.cur h2{
+  color: #ff2a00;
+  font-size: 38px;
+}
+@media screen and (max-width:1700px){
+	.develop_content,.line_content {
+		width: 96%;
+	}
+}
+@media screen and (max-width:1450px){
+	.develop_buttom_right h3 {
+		font-size: 24px;
+	}
+	.develop_buttom_right h3 span{
+		font-size: 55px;
+	}
+	.develop_buttom_right p{
+		  font-size: 18px;
+		 margin-left: 5px;
+	}
+	.line_content ul li h2{
+		font-size: 34px;
+	}
+}
+@media screen and (max-width:1200px){
+	.develop_buttom_right h3 {
+		font-size: 22px;
+	}
+	.develop_buttom_right h3 span{
+		font-size: 40px;
+	
+	}
+	.develop_buttom_right p{
+		  font-size: 18px;
+		 margin-left: 5px;
+	}
+}
+@media screen and (max-width:900px){
+	.develop_container{
+		margin: 4% 0 0;
+	}
+	.develop_buttom{
+		width: 100%;
+	}
+	.develop_buttom_li {
+		width: 100%;
+		display: block;
+	}
+	.develop_buttom_left {
+		position: relative;
+		width: 100%;
+	}
+	.develop_buttom_right {
+		width: 100%;
+		margin-left: 0%;
+	}
+	.develop_buttom_right h3 {
+	  margin-top: 3%;
+	  line-height: 2em;
+	}
+	.develop_next,.develop_prev{
+		cursor: pointer;
+		width: 50px;
+		height: 38px;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		margin-top: -19px;
+		z-index: 2;
+}
+.develop_next{
+		background: url(../images/pro_prev.png) no-repeat center center;
+		background-size: 100%;
+}
+.develop_prev{
+	left: auto;
+	right: 0;
+	background: url(../images/pro_next.png) no-repeat center center;
+	background-size: 100%;
+}
+.line_container{
+	display: none;
+}
+}
+@media screen and (max-width:560px){
+	.develop_buttom_right h3 {
+	  font-size: 4.4vw;
+	}
+	.develop_buttom_right h3 span{
+		margin-right: 2vw;
+		font-size: 8vw;
+	}
+	.develop_buttom_right p{
+		font-size: 3.8vw;
+	}
+}
+

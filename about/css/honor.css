@@ -1,0 +1,112 @@
+#nav ul li:nth-child(2) a {
+	border-bottom: 3px solid #ff2a00;
+}
+
+#nav_min_left ul li:nth-child(2) a {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.honor_container {
+  width: 100%;
+  padding: 4% 0 2%;
+  background: url(../images/honor_bg.jpg) no-repeat center bottom;
+}
+.honor_content{
+	width: 1680px;
+	margin: 0 auto;
+}
+.honor_buttom{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 2.5%;
+}
+.honor_buttom_left{
+	width: 54%;
+	box-sizing: border-box;
+}
+.honor_buttom_right{
+	width: 43%;
+	box-sizing: border-box;
+}
+.honor_buttom_box{
+	margin-bottom: 4%;
+}
+.honor_buttom_box h3{
+	font-size: 22px;
+	line-height: 1.5em;
+	color: #ff2a00;
+	letter-spacing: 0.6px;
+	background: url(../images/inside_honor_icon.png) no-repeat left 3px;
+	padding-left: 30px;
+}
+.honor_buttom_box ul{
+	width: 100%;
+	background: rgba(255,255,255,0.5);
+	overflow: hidden;
+	border-radius: 10px;
+	padding: 0% 3% 2%;
+	margin-top: 2%;
+	box-sizing: border-box;
+}
+.honor_buttom_box ul li{
+	width: 49%;
+	float: left;
+	color: #333;
+	font-size: 18px;
+	letter-spacing: 0.6px;
+	line-height: 1.5em;
+	background: url(../images/honor_icon.png) no-repeat left 4px;
+	  background-size: auto;
+	padding-left: 28px;
+	box-sizing: border-box;
+	margin-top: 3%;
+	background-size: 18px;
+	padding-right: 1%;
+}
+.honor_buttom_right ul li{
+	width: 100%;
+	margin-top: 4.2%;
+}
+@media screen and (max-width:1700px){
+	.honor_content{
+		width: 96%;
+	}
+	.honor_buttom_right ul li{
+		width: 100%;
+		margin-top: 3.6%;
+	}
+}
+@media screen and (max-width:1450px){
+	.honor_buttom_box h3{
+		font-size: 20px;
+		background-size: 20px;
+	}
+	.honor_buttom_box ul li{
+		font-size: 16px;
+		padding-left: 25px;
+		background-size: 16px;
+	}
+}
+@media screen and (max-width:1200px){
+.honor_buttom{
+	display: block;
+	/* justify-content: space-between;
+	width: 100%; */
+}
+.honor_buttom_left,.honor_buttom_right{
+	width: 100%;
+}
+.honor_buttom_left ul li{
+	width: 100%;
+	padding-right: 0;
+}
+}
+@media screen and (max-width:900px){
+	.honor_container{
+		margin-top: 4%;
+	}
+}
+@media screen and (max-width:560px){
+	
+}

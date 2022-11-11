@@ -1,0 +1,513 @@
+#nav ul li:nth-child(2) a {
+	border-bottom: 3px solid #ff2a00;
+}
+
+#nav_min_left ul li:nth-child(2) a {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+/* 企业简介 */
+.about_jianjie_container{
+	width: 1680px;
+	margin: 4% auto 0;
+}
+.about_content{
+	margin-top: 2%;
+}
+.about_content p{
+	color: #333;
+	font-size: 16px;
+	line-height: 1.9em;
+	letter-spacing: 0.6px;
+}
+.about_buttom{
+	position: relative;
+	width: 100%;
+	display: flex;
+	margin-top: 2.5%;
+}
+.about_buttom .about_buttom_left{
+	display: block;
+	width: 67% ;
+	overflow: hidden;
+}
+.about_buttom .about_buttom_left img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: all 2s;
+}
+.about_buttom .about_buttom_left img:hover{
+	transform: scale(1.1);
+}
+.about_buttom ul{
+	width:33%;
+	height: 100%;
+	position: absolute;
+	right:0;
+}
+.about_buttom  ul li:first-child {
+    background: #ff2a00;
+    color: #fff;
+}
+.about_buttom  ul li {
+    width: 100%;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 20px;
+    line-height: 1.5em;
+    background: #dbdbdb;
+    letter-spacing: 0.6px;
+    padding: 5.55% 7%;
+    height: 20%;
+}
+.about_buttom  ul li:nth-child(2) {
+    background: #f2f1f1;
+}
+.about_buttom ul li:nth-child(3) {
+    background: #ebebeb;
+}
+.about_buttom  ul li:nth-child(4) {
+    background: #e5e5e5;
+}
+.about_buttom  ul li:nth-child(5) {
+    background: #dbdbdb;
+}
+.about_buttom  ul li:first-child span {
+    color: #fff;
+}
+.about_buttom ul li span {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #ff2a00;
+}
+/* 企业文化 */
+.culture_container,.cooperative_container{
+	margin-top: 4% !important;
+}
+.culture_top,.cooperative_container{
+	width: 1680px;
+	margin: 0 auto;
+	z-index: 999;
+}
+.culture_buttom{
+	display: flex;
+	margin-top: 4%;
+	background: url(../images/culture_bg.jpg) no-repeat center center;
+}
+.culture_buttom ul{
+	box-sizing: border-box;
+	width: 17%;
+	border-right: 1px solid #fff;
+}
+.culture_buttom ul li{
+	position: relative;
+	text-align: center;
+	width:100%;
+	height: 200px;
+	border-bottom: 1px solid #fff;
+	transition-duration:.5s;
+}
+.culture_buttom ul li:last-child{
+	border-bottom:0;
+}
+.culture_buttom ul li:hover{
+	background: rgba(255,42,0,0.65);
+}
+.culture_buttom ul li.cur{
+	background: rgba(255,42,0,0.65);
+}
+.culture_buttom ul li a{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.culture_buttom ul li a img{
+	display: block;
+	margin: 0 auto;
+}
+.culture_buttom ul li a h3{
+	font-size: 26px;
+	line-height: 1.5em;
+	font-weight: normal;
+	letter-spacing: 0.6px;
+	margin-top: 10px;
+	color: #fff;
+}
+.culture_buttom .culture_buttom_right{
+	width: 83%;
+}
+.culture_buttom_right .culture_buttom_li{
+	position: relative;
+}
+.culture_buttom_right .culture_buttom_a{
+	width: 49.6%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 10%;
+	color: white;
+}
+ .culture_buttom_a h3{
+	font-size: 32px;
+	line-height: 1.5em;
+	letter-spacing: 0.6px;
+}
+ .culture_buttom_a h3 span{
+	 display: inline-block;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+ .culture_buttom_a>span{
+	 display: inline-block;
+	width: 80px;
+	height: 2px;
+	background: #fff;
+	margin: 3.5% 0;
+}
+ .culture_buttom_a h4{
+	font-size: 22px;
+	line-height: 1.5em;
+	letter-spacing: 0.6px;
+	font-weight: normal;
+	margin-bottom: 3%;
+}
+ .culture_buttom_a p{
+	font-size: 16px;
+	line-height: 1.8em;
+	letter-spacing: 0.6px;
+	margin-top: 1.5%;
+}
+/* 合作企业 */
+.cooperative_top p{
+	  color: #333;
+	  font-size: 16px;
+	  line-height: 1.9em;
+	  letter-spacing: 0.6px;
+	  margin-top: 1.6vw;
+	  overflow: hidden;
+}
+.cooperative_buttom{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2.7%;
+}
+.cooperative_buttom li{
+	position: relative;
+	width: 32%;
+	margin-right: 2%;
+}
+.cooperative_buttom li:last-child{
+	margin-right: 0%;
+}
+.cooperative_buttom li a img{
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+}
+.cooperative_buttom li .cooperative_position{
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	max-height: 55px;
+	overflow: hidden;
+	padding: 0 7%;
+	background: rgba(255,42,0,0.8);
+	box-sizing: border-box;
+	transition-duration: .8s;
+}
+.cooperative_position h3{
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.5em;
+	color: #fff;
+	letter-spacing: 0.6px;
+	display: table;
+	margin: 0 auto;
+	line-height: 55px;
+}
+.cooperative_position p{
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #fff;
+	letter-spacing: 0.6px;
+	margin-top: 10%;
+	opacity: 0;
+	transition-duration: .9s;
+}
+.cooperative_buttom li:hover .cooperative_position {
+	  padding: 2% 7% 6%;
+	  max-height: 250px;
+}
+.cooperative_buttom li:hover .cooperative_position p{
+	opacity: 1;
+	margin-top: 0;
+}
+/* 运营数据 */
+.yunying_container{
+	margin-top: 4%;
+	background: url(../images/yunying_bg.jpg) no-repeat center center;
+}
+.yunying_content{
+	display: flex;
+	justify-content: space-between;
+	width: 1680px;
+	margin: 0 auto;
+}
+.yunying_content .yunying_left{
+	width: 26%;
+	padding: 4% 0 0;
+}
+.yunying_content ul{
+	display: flex;
+	width: 74%;
+}
+.yunying_content ul li{
+	width: 25%;
+	height: 240px;
+	text-align: center;
+	border-right: 1px solid #8f8e8e;
+}
+.yunying_content ul li:first-child{
+	border-left: 1px solid #8f8e8e;
+}
+.yunying_content ul li h3{
+	font-size:50px;
+	color: #FF2A00;
+	margin-top: 80px;
+}
+.yunying_content ul li span{
+	display: inline-block;
+	width:35px ;
+	height:2px ;
+	background: #494949;
+	margin:2% 0 4%;
+	
+}
+.yunying_content ul li p{
+	font-size: 16px;
+	color: #333;
+}
+@media screen and (max-width:1700px) {
+	.about_jianjie_container,.culture_top,.cooperative_container,.yunying_content{
+		width: 96%;
+	}
+}
+@media screen and (max-width:1450px) {
+	/* 企业简介 */
+	.about_buttom .about_buttom_left{
+		width: 60%;
+	}
+	.about_buttom ul{
+		width: 40%;
+	}
+	.about_buttom ul li{
+		padding: 3.8% 7%;
+		font-size: 18px;
+	}
+	.about_buttom ul li span{
+		font-size: 30px;
+	}
+	/* 企业文化 */
+	.culture_buttom ul li{
+		height: 160px;
+	}
+	.culture_buttom ul li a img{
+		height: 40px;
+	}
+	.culture_buttom ul li a h3{
+		font-size: 20px;
+	}
+	.culture_buttom_right .culture_buttom_a{
+		width: 80%;
+	}
+	.culture_buttom_a h3{
+		font-size: 30px;
+	}
+	.culture_buttom_a h4{
+		font-size: 20px;
+	}
+	/* 合作企业 */
+	.cooperative_position h3{
+		font-size:18px;
+	}
+	.cooperative_position p{
+		font-size: 15px;
+	}
+	/* 运营数据 */
+	.yunying_content ul li h3{
+		font-size:40px;
+	}
+}
+@media screen and (max-width:1300px) {
+	/* 企业简介 */
+	.about_buttom ul li{
+		padding: 17px 7%;
+		font-size: 15px;
+	}
+	.about_buttom ul li span{
+		font-size: 22px;
+	}
+}
+@media screen and (max-width:900px){
+	/* 企业简介 */
+	.about_buttom{
+		display: block;
+	}
+	.about_buttom .about_buttom_left,
+	.about_buttom ul{
+		width: 100%;
+		position: initial;
+	}
+	.about_buttom ul li{
+		padding: 3% 3%;
+		font-size: 16px;
+		height: auto;
+	}
+	.about_buttom ul li span{
+		font-size: 30px;
+	}
+	/* 企业文化 */
+	.culture_buttom{
+		display: block;
+	}
+	.culture_buttom ul{
+		display: flex;
+		width: 100%;
+	}
+	.culture_buttom ul li{
+		height: auto;
+		position: static;
+		padding: 3%;
+		width: 33.3%;
+		border-right: 1px solid #fff;
+	}
+	.culture_buttom ul li:last-child{
+		border-bottom: 1px solid #fff;
+	}
+	.culture_buttom ul li a{
+		position: static;
+		top: 0;
+		transform: translateY(-0%);
+	}
+	.culture_buttom ul li a h3 {
+	  font-size: 22px;
+	}
+	.culture_buttom .culture_buttom_right{
+		width: 100%;
+	}
+	.culture_buttom_right .culture_buttom_a{
+		width: 90%;
+		margin: 5%;
+		position: initial;
+		top: 0;
+		left: 0;
+		transform: translateY(-0%);
+	}
+	.culture_buttom_a h3{
+		font-size: 24px;
+	}
+	.culture_buttom_a h4{
+		font-size: 18px;
+	}
+	/* 合作企业 */
+	.cooperative_buttom li {
+	  width: 48%;
+	  margin:0 2% 2% 0;
+	}
+	.cooperative_buttom li:nth-child(2) {
+	  margin:0 0% 2% 0;
+	}
+	.cooperative_buttom li:nth-child(3) {
+	  margin:0;
+	}
+	
+	/* 运营数据 */
+	.yunying_container{
+		padding: 4% 0;
+		background: url(../images/m_yunying_bg.jpg) no-repeat center center;
+	}
+	.yunying_content{
+		display: block;
+	}
+	.yunying_content .yunying_left{
+		padding: 0;
+	}
+	.yunying_content .yunying_left,.yunying_content ul{
+		width: 100%;
+		flex-wrap: wrap;
+		padding-top: 4%;
+	}
+	.yunying_content ul li{
+		width: 48%;
+		margin: 0 2% 3% 0;
+		height: auto;
+		border: none;
+		background: rgba(255,255,255,0.8);
+		padding: 3% 0;
+	}
+	.yunying_content ul li:nth-child(2n){
+		margin-right: 0;
+	}
+	.yunying_content ul li h3{
+		margin-top: 0;
+	}
+}
+@media screen and (max-width:560px){
+	/* 企业简介 */
+	.about_content p,.cooperative_top p,.cooperative_position h3,
+	.cooperative_position p{
+		font-size: 3.6vw;
+	}
+	.about_content p span{
+		font-size: 15px;
+		color: rgb(34,34,34);
+	}
+	.about_buttom ul li{
+		font-size: 3.6vw;
+		padding: 3% 4%;
+	}
+	/* 企业文化 */
+	.culture_buttom_a h3{
+		font-size:4.5vw;
+	}
+	.culture_buttom_a>span{
+		font-size:10vw;
+	}
+	.culture_buttom_a h4{
+		font-size:3.8vw;
+	}
+	.culture_buttom_a p{
+		font-size:3.5vw;
+	}
+	/* 合作企业 */
+	.cooperative_buttom li {
+	  width: 100%;
+	  margin-right: 0;
+	}
+	.cooperative_buttom li{
+		max-height: 350px;
+/* 		padding: 1% 5% 5% 0; */
+	}
+	.cooperative_buttom li .cooperative_position {
+	    padding: 2% 7% 6%;
+	    max-height: 350px;
+	}
+	.cooperative_position h3 {
+	    font-size:3.8vw;
+		line-height: 40px;
+	}
+	.cooperative_position p {
+	    opacity: 1;	
+		margin-top: 0;
+	}
+	/* 运营营销 */
+	.yunying_content ul li h3{
+		font-size: 6.3vw;
+	}
+}
